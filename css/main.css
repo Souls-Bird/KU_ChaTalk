@@ -27,6 +27,32 @@
     line-height: 25px;
 }
 
+.wrapper {
+    height: 100vh;
+}
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+
+.message-form {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#message-text {
+    width: 100%;
+    border-radius: 2px;
+}
+
 #main__title {
     font-weight: 800;
 }
@@ -57,3 +83,4 @@ button {
     text-align: center;
     line-height: 2.5rem;
 }
+

@@ -9,6 +9,7 @@
     <title>KU ChaTalk</title>
 </head>
 <body>
+<div class="wrapper">
 <div class="header">
     <a href="index.html"><div class="logo"><i class="far fa-comments"><span id="logo__message"> KU ChaTalk</span></i></div></a>
     <div class="menu">
@@ -17,19 +18,13 @@
         <a href=""><button>Search</button></a>
     </div>
 </div>
-<div class="main"></div>
-
-<ul id="message-list"></ul>
-    <form id="message-form">
+<ul id="message-list" class="message-list"></ul>
+    <form id="message-form" class="message-form">
       <input type='text' id='message-text'>
       <input type="submit">
     </form>
-
     <script src="https://unpkg.com/@pusher/chatkit-client@1/dist/web/chatkit.js"></script>
     <script type="text/javascript" src="js/chatkit.js"></script>
-
-<footer id="footer">
-    <small>©Copyright 2019 Korea Univ. Software Engineering Team 1 ALL RIGHTS RESERVED</small>
-</footer>
+</div>
 </body>
 </html>
